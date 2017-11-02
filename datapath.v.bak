@@ -1,0 +1,151 @@
+module DataPath
+  (input clk,
+       PCInSel,
+       
+       PCLd,
+       PCRst,
+       
+       EALd,
+       EARst,
+       
+       MDRLd,
+       MDRRst,
+       
+       ACCInSel,
+       ACCLd,
+       ACCRst,
+       
+       CYLd,
+       CYRst,
+       
+       IRLd,
+       IRRst,
+       
+       memRead,
+       memWrite,
+       memAddrSel,
+       memWriteSel,
+       
+       shRst,
+       shR,
+       shL,
+       input [1:0] shiftTwo,
+       
+   input [1:0]
+       EAInSel,
+       ALUInSel1,
+       ALUInSel2,
+       CYInSel,
+       
+       input [2:0]ALUSel
+   output [11:0] Inst,
+   output zero,
+          CY
+  );
+
+  wire [12:0] shOut;
+  wire [11:0] PCIn1, 
+              PCIn2, 
+              PCIn, 
+              PCOut, 
+              memAddr, 
+              memData, 
+              writeData,
+              IROut,
+              
+              EAIn,
+              EAOut,
+              
+              MDROut,
+              
+              ALUIn1,
+              ALUIn2,
+              ALUOut;
+       
+//  wire [1:0]
+//       addrSel,
+//       ALUInSel1,
+//       ALUInSel2;
+       
+//       wire
+//       
+//       EASel,
+//       PCInSel,
+       
+//       PCLd,
+//       PCRst,
+       
+//       EALd,
+//       EARst,
+       
+//       MDRLd,
+//       MDRRst,
+       
+//       memRead,
+//       memWrite,
+//       memAddrSel,
+//       memWriteSel,
+       
+       
+  assign Inst = IROut;
+  
+  BusMUX #(12) PCInMUX(PCIn1, PCIn2, {12'b0}, {12'b0}, {1'b0, PCInSel}, PCIn);
+  
+  Register #(12) PCReg(clk, PCLd, PCRst, PCIn, PCOut);
+  
+  BusMUX #(12) MemAddrMUX(PCOut, EAOut, {12'b0}, {12'b0}, {1'b0, memAddrSel}, memAddr);
+  BusMUX #(12) MemWriteMUX(Acc, ALUOut, {12'b0}, {12'b0}, {1'b0, memWriteSel}, writeData);
+  
+  
+  Memory
+  (clk,
+   1'b1,  // read
+   memWrite,
+   memAddr,
+   memData,
+   writeData,
+  );
+  
+  
+   Register #(12) IR(clk, IRLd, IRRst, memData, IROut);
+   
+   wire [6:0]offset;
+   assign offset = IROut[6:0];
+   
+   BusMUX #(12) EAInMUX(memData, {5'b0, offset}, {PCOut[11:7], offset}, 12'b0, EAInSel, EAIn);
+   Register #(12) EA(clk, EALd, EARst, EAIn, EAOut);
+   
+   
+   Register #(12) MDR(clk, MDRLd, MDRRst, memData, MDROut);
+   
+   
+   BusMUX #(12) ACCMUX(ALUOut, shOut[12:1], {12'b0}, {12'b0}, {1'b0, ACCInSel}, ACCIN); 
+   Register #(12) ACC(clk, ACCLd, ACCRst, ACCIn, ACCOut);
+   
+   BusMUX #(12) ALUInMUX1(PCOut, ACCOut, 12'd1, 12'b0, ALUInSel1, ALUIn1);
+   BusMUX #(12) ALUInMUX2(12'd4, MDROut, 12'd1, 12'b0, ALUInSel2, ALUIn2);    
+   
+   
+   ALU myALU
+   (ALUIn1,
+    ALUIn2,
+    ALUSel,
+    ALUOut,
+    zero,
+    CY);
+
+
+   BusMUX #(1) CYInMUX(CY, shOut[0:0], ~shOut[0:0], 1'b0, CYInSel, CYIn);
+   Register #(1) CYReg(clk, CYLd, CYRst, CYIn, CYOut);
+   
+   ShiftRegister #(13) sh(
+      clk, 
+      shRst, 
+      shLd, 
+      shR, 
+      shL, 
+      shiftTwo, 
+      {ACCOut, CYOut},
+      shOut);
+endmodule
+

@@ -1,0 +1,24 @@
+module ALU
+   (input [31:0]dataA,
+    input [31:0]dataB,
+    input [2:0]sel,
+    output reg [31:0]O,
+    output reg zero,
+    output reg CY);
+    
+    reg [31:0]hiReg;
+    reg [31:0]lowReg;
+    
+    always @(dataA, dataB, sel) begin
+      case (sel)
+        0: O <= dataA + dataB;
+        1: O <= dataA - dataB;
+        2: O <= dataA & dataB;
+        3: O <= dataA | dataB;
+        4: O <= dataA ^ dataB;
+        5: {hiReg, lowReg} <= dataA * dataB;
+        6: O <= hiReg;
+        7: O <= lowReg;
+      endcase
+    end
+endmodule

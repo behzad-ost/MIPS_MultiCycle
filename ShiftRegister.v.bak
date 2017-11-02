@@ -1,0 +1,29 @@
+module ShiftRegister #(parameter size = 12) (
+  input clk, 
+  rst,
+  shR, 
+  shL, 
+  input [1:0]shiftTwo, 
+  input [size-1:0]I, 
+  output reg [size-1:0]O);
+  
+  always @(posedge clk, rst) begin
+    if(rst)
+      O <= 0;
+    else if(ld)
+      O <= I;
+    else if(shR) begin
+      if(shiftTwo == 2'd2)
+        O <= {O[1:0], O[size-1: 2]};
+      else
+        O <= {O[0:0], O[size-1: 1]};
+    end 
+    else begin
+      if(shiftTwo == 2'd2)
+        O <= {O[size-3:0], O[1:0]};
+      else
+        O <= {O[size-2:0], O[0:0]};
+    end
+  end
+  
+endmodule

@@ -1,0 +1,14 @@
+module MUX #(parameter busSize=32)
+  (input [busSize-1:0] I1, I2, I3, I4,
+   input [1:0] sel,
+   output [busSize-1:0] O);
+   
+   assign O = (sel == 3'b00) ? I1:
+              (sel == 3'b01) ? I2:
+              (sel == 3'b10) ? I3:
+              (sel == 3'b11) ? I4:
+              I1;
+   //always @(I[0], sel) begin
+   //  O <= I[sel];
+   //end
+ endmodule

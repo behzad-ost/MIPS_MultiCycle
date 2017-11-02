@@ -1,0 +1,80 @@
+C:/Users/user/Desktop/4/DataPath.v {1 {vlog -work work {C:\Users\user\Desktop\4\DataPath.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DataPath
+
+Top level modules:
+	DataPath
+
+} {} {}} C:/Users/user/Desktop/4/test.v {1 {vlog -work work {C:\Users\user\Desktop\4\test.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CPU_test
+
+Top level modules:
+	CPU_test
+
+} {} {}} C:/Users/user/Desktop/4/MUX.v {1 {vlog -work work C:/Users/user/Desktop/4/MUX.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module BusMUX
+
+Top level modules:
+	BusMUX
+
+} {} {}} C:/Users/user/Desktop/4/ALU.v {1 {vlog -work work {C:\Users\user\Desktop\4\ALU.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/user/Desktop/4/register.v {1 {vlog -work work C:/Users/user/Desktop/4/register.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} C:/Users/user/Desktop/4/RegFile.v {1 {vlog -work work C:/Users/user/Desktop/4/RegFile.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} C:/Users/user/Desktop/4/CPU.v {1 {vlog -work work {C:\Users\user\Desktop\4\CPU.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} C:/Users/user/Desktop/4/Adder.v {1 {vlog -work work C:/Users/user/Desktop/4/Adder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/user/Desktop/4/SignExtend.v {1 {vlog -work work C:/Users/user/Desktop/4/SignExtend.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} C:/Users/user/Desktop/4/ShiftRegister.v {1 {vlog -work work {C:\Users\user\Desktop\4\ShiftRegister.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ShiftRegister
+
+Top level modules:
+	ShiftRegister
+
+} {} {}} C:/Users/user/Desktop/4/Controller.v {2 {vlog -work work {C:\Users\user\Desktop\4\Controller.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller
+** Warning: C:\Users\user\Desktop\4\Controller.v(139): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	controller
+
+} {} {}}

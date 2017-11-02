@@ -1,0 +1,21 @@
+module Memory #(parameter width=12, size=4096, addrSize=12)
+  (input clk,
+   input read,
+   input write,
+   input [addrSize-1:0]addr,
+   output reg [4*width-1:0]rdData,
+   input [4*width-1:0]wrData
+  );
+  reg [4*width-1:0] Mem [0:size-1];
+  always @(posedge clk) begin
+    if(write)
+      {Mem[addr], Mem[addr+1], Mem[addr+2], Mem[addr+3]} <= wrData;
+//    else
+//      rdData <= Mem[addr];
+  end
+  always @(addr, read)
+    if(read) rdData <= {Mem[addr], Mem[addr+1], Mem[addr+2], Mem[addr+3]};
+endmodule
+  
+  
+   

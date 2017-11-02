@@ -1,0 +1,1528 @@
+# Reading C:/altera/13.0sp1/Modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile C:/Users/user/Desktop/4/CA4.mpf 
+# Loading project CA4
+# 0 compiles, 12 failed with no errors. 
+# Error opening D:/Desktop/University/Courses/Spring 95/Computer Architecture/CA/4/Controller.v
+# Path name 'D:/Desktop/University/Courses/Spring 95/Computer Architecture/CA/4/Controller.v' doesn't exist.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# 11 compiles, 0 failed with no errors. 
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# 11 compiles, 0 failed with no errors. 
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# 11 compiles, 0 failed with no errors. 
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# 11 compiles, 0 failed with no errors. 
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v failed with 1 errors.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v failed with 1 errors.
+# 12 compiles, 2 failed with 2 errors. 
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v failed with 1 errors.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 1 failed with 1 error. 
+# Compile of Memory.v failed with 1 errors.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -gui work.CPU_test
+# vsim -gui work.CPU_test 
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# ** Error: (vsim-3037) C:/Users/user/Desktop/4/DataPath.v(107): Missing instance name in instantiation of 'Memory'.
+# 
+#         Region: /CPU_test/cpu/dp
+# Loading work.ALU
+# Loading work.ShiftRegister
+# Error loading design
+# Load canceled
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -gui work.CPU_test
+# vsim -gui work.CPU_test 
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Fatal: (vsim-3365) C:/Users/user/Desktop/4/DataPath.v(107): Too many port connections. Expected 6, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_test/cpu/dp/mem File: C:/Users/user/Desktop/4/Memory.v
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -gui work.CPU_test
+# vsim -gui work.CPU_test 
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Fatal: (vsim-3365) C:/Users/user/Desktop/4/DataPath.v(107): Too many port connections. Expected 6, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_test/cpu/dp/mem File: C:/Users/user/Desktop/4/Memory.v
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -gui work.CPU_test
+# vsim -gui work.CPU_test 
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Fatal: (vsim-3365) C:/Users/user/Desktop/4/DataPath.v(149): Too many port connections. Expected 7, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_test/cpu/dp/sh File: C:/Users/user/Desktop/4/ShiftRegister.v
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -gui work.CPU_test
+# vsim -gui work.CPU_test 
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+add wave -position insertpoint sim:/CPU_test/*
+run -all
+add wave -position insertpoint sim:/CPU_test/cpu/dp/*
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+add wave -position insertpoint sim:/CPU_test/cpu/c/*
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+add wave -position insertpoint sim:/CPU_test/cpu/dp/PCInMUX/*
+add wave -position insertpoint sim:/CPU_test/cpu/dp/PCReg/*
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(97): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(122): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(125): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I2'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/ALUInMUX1
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(148): [PCDPC] - Port size (13 or 13) does not match connection size (2) for port 'I'. The port definition is at: C:/Users/user/Desktop/4/ShiftRegister.v(7).
+# 
+#         Region: /CPU_test/cpu/dp/sh
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(123): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(124): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'data'. The port definition is at: C:/Users/user/Desktop/4/register.v(1).
+# 
+#         Region: /CPU_test/cpu/dp/ACC
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(124): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'O'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(4).
+# 
+#         Region: /CPU_test/cpu/dp/ACCMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# Warning in wave window restart: (vish-4014) No objects found matching '/CPU_test/cpu/dp/ACCIN'. 
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+quit -sim
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -gui work.CPU_test
+# vsim -gui work.CPU_test 
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+add wave -position insertpoint sim:/CPU_test/cpu/dp/*
+add wave -position insertpoint sim:/CPU_test/cpu/c/*
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+add wave -position insertpoint  \
+sim:/CPU_test/cpu/dp/mem/wrData
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+add wave -position insertpoint sim:/CPU_test/cpu/dp/MemWriteMUX/*
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (12 or 12) does not match connection size (1) for port 'I1'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(2).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+# Warning in wave window restart: (vish-4014) No objects found matching '/CPU_test/cpu/dp/Acc'. 
+run -all
+add wave -position insertpoint sim:/CPU_test/cpu/dp/mem/*
+restart -f
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful with warnings.
+# Compile of CPU.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of Memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of register.v was successful.
+# Compile of ShiftRegister.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of test.v was successful.
+# 12 compiles, 0 failed with no errors. 
+restart -f
+# Loading work.CPU_test
+# Loading work.CPU
+# Loading work.controller
+# Loading work.DataPath
+# Loading work.BusMUX
+# Loading work.Register
+# Loading work.Memory
+# Loading work.ALU
+# Loading work.ShiftRegister
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(98): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemAddrMUX
+# ** Warning: (vsim-3015) C:/Users/user/Desktop/4/DataPath.v(99): [PCDPC] - Port size (2 or 2) does not match connection size (3) for port 'sel'. The port definition is at: C:/Users/user/Desktop/4/MUX.v(3).
+# 
+#         Region: /CPU_test/cpu/dp/MemWriteMUX
+run -all
